@@ -1,0 +1,55 @@
+Array – Lesson 1: Array Basics
+1. Array kya hota hai?
+Array ek variable mein multiple values store karne ke liye use hota hai.
+Without array:
+let a = 10;
+let b = 20;
+let c = 30;
+
+
+With array:
+let numbers = [10, 20, 30];
+Ek hi variable numbers mein 3 values store ho gayi.
+2. Array Index
+Array ka index hamesha 0 se start hota hai.
+Array visualization
+10
+Index 0
+
+
+20
+Index 1
+
+
+30
+Index 2
+
+
+40
+Index 3
+Example:
+let numbers = [10, 20, 30, 40];
+
+console.log(numbers[0]); // 10
+console.log(numbers[1]); // 20
+console.log(numbers[2]); // 30
+console.log(numbers[3]); // 40
+
+
+3. Important rule
+- First element → index 0
+- Second element → index 1
+- Third element → index 2
+- Fourth element → index 3
+Practice Question 1
+Given:
+let fruits = ["Apple", "Mango", "Banana", "Orange"];
+Correct! 🎉
+fruits[2] se "Banana" print hoga.
+
+Because:
+Index	Value
+0	Apple
+1	Mango
+2	Banana
+3	Orange
